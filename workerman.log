@@ -1,0 +1,188 @@
+
+2015-10-02 10:03:48 client_id:22	client_ip:127.0.0.1
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'client_id' in 'field list'' in D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php:1602
+Stack trace:
+#0 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1602): PDO->prepare('UPDATE `hs_craf...')
+#1 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('UPDATE `hs_craf...', Array)
+#2 D:\xampps\htdocs\demo\Applications\Sender\Event.php(78): GatewayWorker\Lib\DbConnection->query()
+#3 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(150): Event::onMessage(22, '{"type":"login"...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\xampps\htdocs\demo\Workerman\Connection\TcpConnection.php(470): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#7 D:\xampps\htdocs\demo\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#8 D:\xampps\htdocs\demo\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#9 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#10 D:\xampps\htdocs\demo\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#11 D:\xampps\htdocs\demo\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#12 D:\xampps\htdocs\demo\Applications\Sender\start_businessworker.php(33): Workerman\Worker::runAll()
+#13 {main}
+2015-10-03 12:45:12 client_id:28	client_ip:127.0.0.1
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'client_id' in 'field list'' in D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php:1602
+Stack trace:
+#0 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1602): PDO->prepare('UPDATE `hs_craf...')
+#1 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('UPDATE `hs_craf...', Array)
+#2 D:\xampps\htdocs\demo\Applications\Sender\Event.php(78): GatewayWorker\Lib\DbConnection->query()
+#3 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(150): Event::onMessage(28, '{"type":"login"...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\xampps\htdocs\demo\Workerman\Connection\TcpConnection.php(470): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#7 D:\xampps\htdocs\demo\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#8 D:\xampps\htdocs\demo\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#9 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#10 D:\xampps\htdocs\demo\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#11 D:\xampps\htdocs\demo\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#12 D:\xampps\htdocs\demo\Applications\Sender\start_businessworker.php(33): Workerman\Worker::runAll()
+#13 {main}
+2015-10-04 09:08:16 client_id:41	client_ip:127.0.0.1
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'client_id' in 'field list'' in D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php:1602
+Stack trace:
+#0 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1602): PDO->prepare('UPDATE `hs_craf...')
+#1 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('UPDATE `hs_craf...', Array)
+#2 D:\xampps\htdocs\demo\Applications\Sender\Event.php(78): GatewayWorker\Lib\DbConnection->query()
+#3 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(150): Event::onMessage(41, '{"type":"login"...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\xampps\htdocs\demo\Workerman\Connection\TcpConnection.php(470): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#7 D:\xampps\htdocs\demo\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#8 D:\xampps\htdocs\demo\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#9 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#10 D:\xampps\htdocs\demo\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#11 D:\xampps\htdocs\demo\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#12 D:\xampps\htdocs\demo\Applications\Sender\start_businessworker.php(33): Workerman\Worker::runAll()
+#13 {main}
+2015-10-04 10:18:39 client_id:49	client_ip:127.0.0.1
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'client_id' in 'field list'' in D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php:1602
+Stack trace:
+#0 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1602): PDO->prepare('UPDATE `hs_craf...')
+#1 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('UPDATE `hs_craf...', Array)
+#2 D:\xampps\htdocs\demo\Applications\Sender\Event.php(78): GatewayWorker\Lib\DbConnection->query()
+#3 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(150): Event::onMessage(49, '{"type":"login"...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\xampps\htdocs\demo\Workerman\Connection\TcpConnection.php(470): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#7 D:\xampps\htdocs\demo\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#8 D:\xampps\htdocs\demo\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#9 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#10 D:\xampps\htdocs\demo\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#11 D:\xampps\htdocs\demo\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#12 D:\xampps\htdocs\demo\Applications\Sender\start_businessworker.php(33): Workerman\Worker::runAll()
+#13 {main}
+2015-10-06 14:13:14 client_id:76	client_ip:127.0.0.1
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'client_id' in 'field list'' in D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php:1602
+Stack trace:
+#0 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1602): PDO->prepare('UPDATE `hs_craf...')
+#1 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('UPDATE `hs_craf...', Array)
+#2 D:\xampps\htdocs\demo\Applications\Sender\Event.php(78): GatewayWorker\Lib\DbConnection->query()
+#3 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(150): Event::onMessage(76, '{"type":"login"...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\xampps\htdocs\demo\Workerman\Connection\TcpConnection.php(470): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#7 D:\xampps\htdocs\demo\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#8 D:\xampps\htdocs\demo\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#9 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#10 D:\xampps\htdocs\demo\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#11 D:\xampps\htdocs\demo\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#12 D:\xampps\htdocs\demo\Applications\Sender\start_businessworker.php(33): Workerman\Worker::runAll()
+#13 {main}
+2015-10-10 14:05:00 client_id:81	client_ip:127.0.0.1
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'client_id' in 'field list'' in D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php:1602
+Stack trace:
+#0 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1602): PDO->prepare('UPDATE `hs_craf...')
+#1 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('UPDATE `hs_craf...', Array)
+#2 D:\xampps\htdocs\demo\Applications\Sender\Event.php(79): GatewayWorker\Lib\DbConnection->query()
+#3 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(150): Event::onMessage(81, '{"type":"login"...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\xampps\htdocs\demo\Workerman\Connection\TcpConnection.php(470): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#7 D:\xampps\htdocs\demo\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#8 D:\xampps\htdocs\demo\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#9 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#10 D:\xampps\htdocs\demo\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#11 D:\xampps\htdocs\demo\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#12 D:\xampps\htdocs\demo\Applications\Sender\start_businessworker.php(33): Workerman\Worker::runAll()
+#13 {main}
+2015-10-10 14:08:35 client_id:84	client_ip:127.0.0.1
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'client_id' in 'field list'' in D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php:1602
+Stack trace:
+#0 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1602): PDO->prepare('UPDATE `hs_craf...')
+#1 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('UPDATE `hs_craf...', Array)
+#2 D:\xampps\htdocs\demo\Applications\Sender\Event.php(79): GatewayWorker\Lib\DbConnection->query()
+#3 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(150): Event::onMessage(84, '{"type":"login"...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\xampps\htdocs\demo\Workerman\Connection\TcpConnection.php(470): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#7 D:\xampps\htdocs\demo\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#8 D:\xampps\htdocs\demo\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#9 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#10 D:\xampps\htdocs\demo\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#11 D:\xampps\htdocs\demo\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#12 D:\xampps\htdocs\demo\Applications\Sender\start_businessworker.php(33): Workerman\Worker::runAll()
+#13 {main}
+2015-10-11 13:36:48 client_id:121	client_ip:127.0.0.1
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'client_id' in 'field list'' in D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php:1602
+Stack trace:
+#0 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1602): PDO->prepare('UPDATE `hs_craf...')
+#1 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('UPDATE `hs_craf...', Array)
+#2 D:\xampps\htdocs\demo\Applications\Sender\Event.php(79): GatewayWorker\Lib\DbConnection->query()
+#3 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(150): Event::onMessage(121, '{"type":"login"...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\xampps\htdocs\demo\Workerman\Connection\TcpConnection.php(470): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#7 D:\xampps\htdocs\demo\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#8 D:\xampps\htdocs\demo\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#9 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#10 D:\xampps\htdocs\demo\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#11 D:\xampps\htdocs\demo\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#12 D:\xampps\htdocs\demo\Applications\Sender\start_businessworker.php(33): Workerman\Worker::runAll()
+#13 {main}
+2015-10-11 13:37:20 client_id:124	client_ip:127.0.0.1
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'client_id' in 'field list'' in D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php:1602
+Stack trace:
+#0 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1602): PDO->prepare('UPDATE `hs_craf...')
+#1 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('UPDATE `hs_craf...', Array)
+#2 D:\xampps\htdocs\demo\Applications\Sender\Event.php(79): GatewayWorker\Lib\DbConnection->query()
+#3 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(150): Event::onMessage(124, '{"type":"login"...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\xampps\htdocs\demo\Workerman\Connection\TcpConnection.php(470): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#7 D:\xampps\htdocs\demo\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#8 D:\xampps\htdocs\demo\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#9 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#10 D:\xampps\htdocs\demo\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#11 D:\xampps\htdocs\demo\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#12 D:\xampps\htdocs\demo\Applications\Sender\start_businessworker.php(33): Workerman\Worker::runAll()
+#13 {main}
+2015-10-11 13:37:20 client_id:124	client_ip:127.0.0.1
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'client_id' in 'field list'' in D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php:1602
+Stack trace:
+#0 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1602): PDO->prepare('UPDATE `hs_craf...')
+#1 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('UPDATE `hs_craf...', Array)
+#2 D:\xampps\htdocs\demo\Applications\Sender\Event.php(79): GatewayWorker\Lib\DbConnection->query()
+#3 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(150): Event::onMessage(124, '{"type":"login"...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\xampps\htdocs\demo\Workerman\Connection\TcpConnection.php(470): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#7 D:\xampps\htdocs\demo\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#8 D:\xampps\htdocs\demo\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#9 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#10 D:\xampps\htdocs\demo\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#11 D:\xampps\htdocs\demo\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#12 D:\xampps\htdocs\demo\Applications\Sender\start_businessworker.php(33): Workerman\Worker::runAll()
+#13 {main}
+2015-10-11 13:37:20 client_id:124	client_ip:127.0.0.1
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'client_id' in 'field list'' in D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php:1602
+Stack trace:
+#0 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1602): PDO->prepare('UPDATE `hs_craf...')
+#1 D:\xampps\htdocs\demo\GatewayWorker\Lib\DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('UPDATE `hs_craf...', Array)
+#2 D:\xampps\htdocs\demo\Applications\Sender\Event.php(79): GatewayWorker\Lib\DbConnection->query()
+#3 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(150): Event::onMessage(124, '{"type":"login"...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\xampps\htdocs\demo\Workerman\Connection\TcpConnection.php(470): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#7 D:\xampps\htdocs\demo\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#8 D:\xampps\htdocs\demo\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#9 D:\xampps\htdocs\demo\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#10 D:\xampps\htdocs\demo\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#11 D:\xampps\htdocs\demo\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#12 D:\xampps\htdocs\demo\Applications\Sender\start_businessworker.php(33): Workerman\Worker::runAll()
+#13 {main}

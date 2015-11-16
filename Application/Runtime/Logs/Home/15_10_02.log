@@ -1,0 +1,3085 @@
+[ 2015-10-02T07:21:37+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0030s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T07:21:39+08:00 ] 127.0.0.1 /demo/index.php/home/index/Join
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T07:21:49+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T07:25:56+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T07:25:57+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T07:28:29+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T07:28:33+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0030s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T07:28:34+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T07:28:34+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-10-02T07:28:35+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T07:29:42+08:00 ] 127.0.0.1 /demo/index.php/home/index/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0000s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.023001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hs_member` WHERE `username` = 'helenservice' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hs_member` SET `lastlogintime`='1443742182',`lastloginip`='127.0.0.1' WHERE ( memberid ='14' ) [ RunTime:0.0000s ]
+
+[ 2015-10-02T07:29:44+08:00 ] 127.0.0.1 /demo/index.php/home/Member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T07:29:46+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T07:31:19+08:00 ] 127.0.0.1 /demo/index.php/home/member/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_test` [ RunTime:0.0050s ]
+SQL: DELETE FROM `hs_test` WHERE `ip` = '127.0.0.1' [ RunTime:0.0000s ]
+
+[ 2015-10-02T07:31:19+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T07:31:20+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T07:31:22+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.015000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T07:31:30+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T07:31:35+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.015000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T07:40:48+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T08:30:35+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T08:30:37+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T08:31:54+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T08:33:47+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T08:33:50+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T08:35:09+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.013000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T08:35:11+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.015000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T16:45:33+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T16:46:41+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T16:47:09+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.016000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T16:47:11+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T16:47:33+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.016000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T16:49:47+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T16:50:12+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T16:51:33+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T16:52:13+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.014000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T16:58:43+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T16:59:07+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:00:06+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:00:40+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:01:31+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:02:32+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:04:35+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:05:06+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:05:08+08:00 ] 127.0.0.1 /demo/index.php/home/index/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE `username` = 'helenservice' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hs_member` SET `lastlogintime`='1443776708',`lastloginip`='127.0.0.1' WHERE ( memberid ='14' ) [ RunTime:0.0010s ]
+
+[ 2015-10-02T17:05:09+08:00 ] 127.0.0.1 /demo/index.php/home/Member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:05:11+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:05:50+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0090s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','4','','119','江苏省','南京市','溧水县','螃蟹') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '溧水县'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('墙面打孔','20','2015/10/02 21:00','14','4','1','1443776750','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:05:52+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0020s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','28','','119','江苏省','南京市','溧水县','螃蟹') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '溧水县'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('墙面打孔','20','2015/10/02 21:00','14','28','1','1443776752','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:05:57+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0010s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','65','','119','江苏省','南京市','溧水县','螃蟹') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '溧水县'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('墙面打孔','20','2015/10/02 21:00','14','65','1','1443776757','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:06:35+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:07:01+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0010s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','2754452','','119','江苏省','南京市','溧水县','螃蟹') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '溧水县'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('墙面打孔','20','2015/10/02 21:00','14','2754452','1','1443776821','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:07:25+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0020s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','0','','119','江苏省','南京市','溧水县','螃蟹') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '溧水县'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('墙面打孔','20','2015/10/02 21:00','14','0','1','1443776845','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:07:57+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:07:59+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:08:00+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:08:02+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019002s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:08:23+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0020s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','1','','111','江苏省','南京市','江宁区','上访人') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '江宁区'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('马桶修理','30','2015/10/02 21:00','14','1','1','1443776903','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:08:41+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0020s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','39','','111','江苏省','南京市','江宁区','上访人') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '江宁区'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('马桶修理','30','2015/10/02 21:00','14','39','1','1443776921','127.0.0.1') [ RunTime:0.0010s ]
+
+[ 2015-10-02T17:08:49+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0020s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','0','','111','江苏省','南京市','江宁区','上访人') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '江宁区'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('马桶修理','30','2015/10/02 21:00','14','0','1','1443776929','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:18:52+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:19:11+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0010s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','12568631','','112','江苏省','南京市','江宁区','啊') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '江宁区'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('水电维修','150','2015/10/02 21:00','14','12568631','1','1443777551','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:21:15+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:21:32+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0010s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','4','身份','234','江苏省','南京市','江宁区','撒网') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '江宁区'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('墙面打孔','20','2015/10/02 21:00','14','4','1','1443777692','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:22:44+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:22:47+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-10-02T17:22:56+08:00 ] 127.0.0.1 /demo/index.php/home/index/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE `username` = 'helenservice' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:22:58+08:00 ] 127.0.0.1 /demo/index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:23:12+08:00 ] 127.0.0.1 /demo/index.php/home/index/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE `username` = 'helenservice' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hs_member` SET `lastlogintime`='1443777792',`lastloginip`='127.0.0.1' WHERE ( memberid ='14' ) [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:23:14+08:00 ] 127.0.0.1 /demo/index.php/home/Member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:23:40+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:23:46+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:23:55+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:24:55+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:24:57+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:25:14+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0020s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','76','爱的','112','江苏省','南京市','江宁区','色弱') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '江宁区'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('墙面打孔','20','2015/10/02 20:00','14','76','1','1443777914','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:27:56+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:28:11+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0020s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','0','撒旦','123','江苏省','南京市','江宁区','爱的') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '江宁区'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('清洁玻璃','1','2015/10/02 22:00','14','0','1','1443778091','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2015-10-02T17:28:34+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:41:55+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:43:28+08:00 ] 127.0.0.1 /demo/index.php/home/member/submit_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order_address` [ RunTime:0.0020s ]
+SQL: INSERT INTO `hs_order_address` (`memberid`,`orderid`,`clientname`,`tel`,`province`,`city`,`district`,`housingestate`) VALUES ('14','4546','啊','123','江苏省','南京市','江宁区','啊') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `province` = '江苏省' AND `city` = '南京市' AND `area` = '江宁区'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service` WHERE `serviceid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hs_order` (`servicename`,`price`,`expecteddate`,`memberid`,`orderid`,`status`,`createdate`,`ipaddress`) VALUES ('开换锁','40','2015/10/02 20:00','14','4546','1','1443779008','127.0.0.1') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: client_id D:\xampps\htdocs\demo\Application\Home\Controller\MemberController.class.php 第 118 行.
+
+[ 2015-10-02T17:43:28+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:52:03+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:52:16+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:52:18+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T17:52:29+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:57:50+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T17:58:24+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T18:00:56+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T18:01:03+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-10-02T18:01:06+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T18:01:10+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T18:01:56+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T18:02:23+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T18:02:29+08:00 ] 127.0.0.1 /demo/index.php/home/member/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_test` [ RunTime:0.0020s ]
+SQL: DELETE FROM `hs_test` WHERE `ip` = '127.0.0.1' [ RunTime:0.0000s ]
+
+[ 2015-10-02T18:02:29+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T18:03:25+08:00 ] 127.0.0.1 /demo/index.php/home/member/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `hs_test` [ RunTime:0.0020s ]
+SQL: DELETE FROM `hs_test` WHERE `ip` = '127.0.0.1' [ RunTime:0.0000s ]
+
+[ 2015-10-02T18:03:25+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T18:03:40+08:00 ] 127.0.0.1 /demo/index.php/home/index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T18:03:48+08:00 ] 127.0.0.1 /demo/index.php/home/index/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.022002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022002s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE `username` = 'pandongxia' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: memberid D:\xampps\htdocs\demo\Application\Home\Controller\IndexController.class.php 第 233 行.
+SQL: UPDATE `hs_craftsman` SET `lastlogintime`='1443780228',`lastloginip`='127.0.0.1' WHERE ( craftsmanid ='6' ) [ RunTime:0.0000s ]
+
+[ 2015-10-02T18:03:49+08:00 ] 127.0.0.1 /demo/index.php/home/Craftsman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE ( craftsmanid=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `status` < 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Craftsman/description.html): failed to open stream: No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T18:05:06+08:00 ] 127.0.0.1 /demo/index.php/home/Craftsman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.023002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024002s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE ( craftsmanid=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_order` WHERE `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Craftsman/description.html): failed to open stream: No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T18:05:17+08:00 ] 127.0.0.1 /demo/index.php/home/craftsman/modify_tech
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE ( craftsmanid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE ( craftsmanid=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship` WHERE `craftsmanshipid` IN ('8','9','10')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Craftsman/description.html): failed to open stream: No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T18:08:16+08:00 ] 127.0.0.1 /demo/index.php/home/craftsman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE ( craftsmanid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_order` WHERE `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Craftsman/description.html): failed to open stream: No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T18:10:23+08:00 ] 127.0.0.1 /demo/index.php/home/craftsman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE ( craftsmanid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `status` < 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Craftsman/description.html): failed to open stream: No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T18:10:24+08:00 ] 127.0.0.1 /demo/index.php/home/craftsman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE ( craftsmanid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Craftsman/description.html): failed to open stream: No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T18:11:59+08:00 ] 127.0.0.1 /demo/index.php/home/craftsman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE ( craftsmanid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_order` WHERE `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Craftsman/description.html): failed to open stream: No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T18:14:51+08:00 ] 127.0.0.1 /demo/index.php/home/craftsman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE ( craftsmanid=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Craftsman/description.html): failed to open stream: No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T18:14:53+08:00 ] 127.0.0.1 /demo/index.php/home/craftsman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020002s ]
+SQL: SHOW COLUMNS FROM `hs_craftsman` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsman` WHERE ( craftsmanid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_order` WHERE `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Craftsman/description.html): failed to open stream: No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T21:16:37+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-10-02T21:17:01+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T21:27:40+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-02T21:28:23+08:00 ] 127.0.0.1 /demo/index.php/home/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_order` WHERE `memberid` = 14 AND `status` < 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-02T23:35:39+08:00 ] 127.0.0.1 /demo/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0000s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampps\htdocs\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `hs_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_member` WHERE ( memberid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hs_craftsmanship` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_craftsmanship`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

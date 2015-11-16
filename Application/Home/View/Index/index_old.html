@@ -1,0 +1,206 @@
+<!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>海伦服务</title>    
+
+<style type="text/css">
+body{ margin:0 auto;	padding:0; font-family: Helvetica, Arial, sans-serif;}
+
+/* navigation */
+.nav-wrap { margin: 0 auto;  background-color: #39CCE6; height: 63px; }
+.example-one { margin: 0 auto; list-style: none; position: relative; width: 1200px; }
+.example-one li { display: inline; }
+.example-one li a { color: white; font-size: 20px; display: block; float: left; padding: 20px 20px 20px 20px; text-decoration: none; }
+.example-one li a:hover { color: blue; background:#44B0EE;}
+.nav-right li a {right:0; position:relative;}
+
+.slider-boundary { background:#44B0EE; height:350px; }
+.slider-wrapper , .maincontent { margin:auto; width:1200px; }
+.info {	height:30px; background:#D9D9EE; }
+.scheduletitle {text-align:center;}
+.footer { clear:both; }
+</style>
+<link href="__PUBLIC__/square/green.css" rel="stylesheet">       
+<link rel="stylesheet" href="__PUBLIC__/js/datetimepicker/jquery.datetimepicker.css"/> 
+</head>
+<body>
+
+<div class="nav-wrap"><!--nav begin-->
+    <ul class="example-one nav-left">
+    	<li><a>Helenservice</a></li>
+        <li class="current_page_item"><a href="{:U('home/index/index')}">首页</a></li>
+    </ul>
+    <ul class="example-one nav-right"> 
+        <if condition="is_login()">
+            <li class=""><a href="#">您好 &nbsp; {:get_username()}</a></li>
+            <li class=""><a href="{:U('home/member/index')}" class="animate">我的订单</a></li>
+            <li class=""><a href="http://bootsnipp.com/resources" class="animate">账号设置</a></li>          
+            <li class=""><a href="{:U('home/member/logout')}">退出</a></li>
+        <else/>                                
+          <li class="animate"><a href="{:U('home/index/Login')}" target="_self">登录</a></li>
+          <li class="animate"><a href="{:U('home/index/Join')}" target="_self">注册</a></li>    
+        </if>
+        <li class=""><a href="http://bootsnipp.com/resources" class="animate">关于我们</a></li>
+    </ul>
+</div><!--nav end-->
+
+<div class="slider-boundary"> <!--slider begin-->
+    <div class="slider-wrapper theme-default">
+        <div class="ribbon"></div>
+        <div id="slider" class="nivoSlider">
+            <img src="__PUBLIC__/img/1.jpg" alt=""/>
+            <a href="http://dev7studios.com"><img src="images/up.jpg" alt="" title="This is an example of a caption"/></a>
+            <img src="__PUBLIC__/img/2.jpg" alt="" data-transition="slideInLeft"/>
+            <img src="__PUBLIC__/img/3.jpg" alt="" title="#htmlcaption"/>
+        </div>
+        <div id="htmlcaption" class="nivo-html-caption">
+            <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+        </div>
+    </div>
+</div> <!--slider end-->
+
+<div class="info"><!--info begin-->
+</div><!--info end-->
+ 
+<div class="maincontent"> <!--main content begin-->                      
+    <div class="scheduletitle">预约服务</div>
+    <div>
+        <form id="serviceform" name="servicecheckbox" method="post" action="">     
+            <div class="serviceitem">         
+                <volist name='service' id='vo' key="k">
+                    <div style="width:300px;float:left;border:solid 0px;">                                                                                                   
+                        <div align="center" style="margin:30px 0 0 0;">{$vo.servicename}</div>                         
+                        <div align="center" style="margin:20px 0 0 0;"><img alt="家庭清洁" src="__PUBLIC__/img/clean.jpg"></div>
+                        <div align="center" style="margin:10px 0 0 0;">价格:约{$vo.price}</div>
+                        <div align="center" style="margin:10px 0 0 0;">期望服务时间&nbsp;<input type="text" value="{$currenttime}" class="datetimepicker"/></div>
+                        <div align="center" style="margin:10px 0 0 0;">预约 <input tabindex="{$k}" type="checkbox" id="square-checkbox-{$k}" name="squarecheckbox" value="{$vo.serviceid}" /></div>
+                    </div>                       
+                </volist>
+            </div> 
+            <div style="text-align:center; clear:both;" class="list-group-item"><button type="submit" class="btn btn-primary">提交订单</button></div>                
+        </form>  
+    </div>   
+</div><!--main content end--> 
+          
+<div class="footer">		
+    <include file="Public/footer" />		
+</div>   
+
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<script src="__PUBLIC__/js/jquery.validate.js"></script>    
+<script src="__PUBLIC__/js/icheck.js?v=1.0.2"></script>    
+<script src="__PUBLIC__/js/datetimepicker/jquery.datetimepicker.js"></script>
+<script src="__PUBLIC__/js/PCASClass.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/sender.js"></script>    
+<script src="http://cdn.bootcss.com/jquery-nivoslider/3.1/jquery.nivo.slider.pack.js"></script>
+<script>
+$(window).load(function() {
+		$('#slider').nivoSlider();
+});
+
+$(document).ready(function(){
+  $('.serviceitem input').iCheck({
+	checkboxClass: 'icheckbox_square-green',
+    radioClass: 'iradio_square-green',
+    increaseArea: '20%' // optional
+  });  
+
+  $('.datetimepicker').datetimepicker({lang:'ch',minDate:'-1970/01/01',maxDate:'+1970/03/01'});
+  new PCAS("province","city","area","{$data['province']}","{$data['city']}","{$data['district']}"); 
+  
+  $('#serviceform').validate({ 		
+		submitHandler: function(form){
+				ordersubmit();
+			},
+		rules : {  			
+			squarecheckbox : {  
+				required : true  
+			} 
+		}, 
+		messages : { 			
+			squarecheckbox : {  
+				required : "请至少选择一项服务"  
+			}, 			 
+		},   
+		errorPlacement: function (error, element) { //指定错误信息位置
+			if (element.is(':checkbox')) { //如果是radio或checkbox
+				error.appendTo(element.parent().parent()); //将错误信息添加当前元素的父结点后面
+				
+			} else {
+				error.insertAfter(element);
+			}
+		}
+	});    
+
+});
+
+ 
+
+$('#serviceform input').keypress(function(e) {  
+	if (e.which == 13) {  
+		if ($('#serviceform').validate().form()) {  
+			$('#serviceform').submit();  
+		}  
+		return false;  
+	}  
+});
+
+function ordersubmit()
+{
+	var name = $("#fullname").val();
+    var phone = $("#phone").val();
+    var province = $("#province").val();
+    var city = $("#city").val();
+    var area = $("#area").val();
+    var detailarea = $("#detailarea").val();
+    var arraySrv = new Array();
+    $("#order_service_content > li").each(function(j) {
+		//if ($("[type='checkbox']").attr("checked",'true'))
+		//if ($("[type='checkbox']").prop("checked", true))
+		//alert("each list group"+j);
+		var test = document.getElementById("square-checkbox-"+(j+1)).checked;
+		if (test == true)
+		//if ($("#input[name='square-checkbox']").prop("checked", true))
+		{
+			arraySrv.push(j+1);
+			arraySrv.push($(this).find(".datetimepicker").val());
+		}
+    });
+    
+	//alert(arraySrv);
+    $.ajax({
+    	url:"{:U('home/member/submit_order')}",
+        type:"post",
+        data:{service:arraySrv,name:name,phone:phone,province:province,city:city,area:area,detailarea:detailarea},
+        dataType:"json",
+        success:function(res)
+        {
+        	if (res.status == 1)
+            {
+				if(res.type=='order'){
+				
+					ws.send(JSON.stringify({"type":res.type,"data":res.data}));
+					//console.log(res.data);
+				}
+    			setTimeout(function(){
+    				window.location.replace("{:U('home/member/index')}");
+    			}, 500);
+
+            }
+            else
+            {
+    			setTimeout(function(){
+                	alert(res.info);
+                	window.location.href=res.url;
+    			}, 500 );                
+
+            }
+        }
+    });
+}
+</script>
+  </body>
+</html>

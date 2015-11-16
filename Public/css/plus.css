@@ -1,0 +1,137 @@
+
+
+/* js */
+.tab h2{ overflow:hidden; font-family:"Microsoft YaHei"; font-size:16px; font-weight:normal; height:34px; line-height:34px; background:url(../img/blue_bg.gif) repeat-x; padding-left:10px;}
+.tab h2 span,.tab h2 a{ float:left; width:87px; text-align:center; text-decoration:none; color:#fff;}
+.tab h2 .current{ background:url(../img/tab_hover.gif) no-repeat center bottom;}
+.tab h2 .current a{ color:#a69a15;}
+.tab ul{ border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #ccc; height:250px; _height:262px; overflow:hidden;}
+.tab ul li.ico{ font-size:12px; margin-left:25px; margin-top:8px; _margin-top:6px; *margin-top:6px; overflow:hidden; background:url(../img/li_ico.gif) no-repeat left center; padding-left:10px; height:17px; line-height:17px; _height:19px; _line-height:19px; *height:19px; *line-height:19px;}
+.tab ul li span{ float:right; color:#999999; padding-right:10px;}
+.tab ul li.ico a{ color:#444;}
+.tab ul li.ico a:hover{ color:#a69a15;}
+.tab ul li.noico{ font-size:12px; color:#5b5b5b; margin-left:20px; margin-right:20px; margin-top:8px; _margin-top:6px; *margin-top:6px; overflow:hidden; padding-left:10px; height:20px; line-height:20px; *height:22px; *line-height:22px;}
+
+/* 登录 */
+.login1{ width:260px; height:300px; border-top: 2px solid #39cce6; border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc; float:right; background: #fff;}
+.login1 h2{ font-family:"SimSun"; font-size:14px; height:28px; line-height:28px; margin-top:10px; margin-left:20px;}
+.login1 ul li{ margin-top: 15px; margin-left: 15px; font-size: 12px;}
+	.login-btn{background: #fd9737; border:none; color: #fff; cursor: pointer; height: 30px; padding:0 30px;}
+	.login-regt{border:1px solid #cdcdcd; height: 30px; padding:0 30px; cursor: pointer; background: #fff;}
+.link{ font-size: 12px;}
+.link a{ color: #246fbd; font-size: 12px; font-family: "SimSun"; margin:0 5px;}
+
+.tu{ float:left;}
+.account{ padding:20px; font-size:12px; font-size:"SimSun";}
+.account li{ line-height:35px; color:#444;}
+.button03{ background:url(../img/enter.gif) no-repeat; width:220px; height:35px; border:none; cursor:pointer;}
+.button03:hover{ background:url(../img/enterhover.gif) no-repeat; width:220px; height:35px; border:none; cursor:pointer;}
+
+.sideber h3{ background:url(../img/blue_bg.gif) repeat-x; height:34px; line-height:34px; font-size:14px; color:#f8f8f8; padding-left:10px;}
+.sideber span{ float:right; display:inline; margin-top:-27px; margin-right:20px;}
+.kuang{ border:1px solid #ccc;}
+.kuang li{ font-size:14px; height:32px; line-height:32px;}
+.kuang li a{ color:#444; padding-left:20px; display:block;}
+.kuang li a:hover{ background:#eee; color:#fe9738; cursor:pointer; font-weight:bold; border:1px solid #e6e5e5;}
+.kuang li img{ position: relative;top: 6px; margin-right: 10px;}
+
+/* 面包屑导航 */
+.pos{ font-family:"SimSun"; font-size:14px; background:url(../img/pos.gif) no-repeat left center; padding-left:10px; margin-top:15px;}
+.pos span a{ color:#444;}
+.pos span a:hover{text-decoration:underline;}
+
+/*分页*/
+#page{ height:24px; line-height:24px; margin:30px 0px; padding-left:120px;font-size:14px; color:#333;}
+#page span{ display:block; float:left; margin:0px 3px;}
+#page a{ display:block; height:22px; border:1px solid #c8c7c7; text-align:center; font-size:14px; color:#333; text-decoration:none;}
+#page a:hover{background:#8d8515; text-decoration:none; color:#fff;}
+#page .pageCur{background:#8d8515; color:#fff;}
+#page .pre,#page .next{ width:60px; color:#666;}
+#page .pre:hover,#page .next:hover{ border:1px solid #5c5b5b; background:#666; }
+#page .pageNum{ width:25px;}
+#page .pageInputText{ width:30px; height:22px; border:1px solid #c8c7c7; background:#fff;}
+#page .pageInputBtn{ border:1px solid #5c5b5b; background:#666; height:22px; width:45px; color:#fff; font-size:14px; cursor:pointer;}
+
+/* register.html */
+.dl{ padding:20px; margin-top: 50px;}
+.dl h2{ height:30px; line-height:30px; /*border-bottom:1px solid #dadada;*/}
+.rg_txt table{ margin-top:10px;}
+.rg_txt table td{ line-height:35px; font-size:14px; color:#444;}
+.rg_txt table td span{ color:#ff0000;}
+.red a{ color:#dc1f35; font-size:12px;}
+.red a:hover{ text-decoration:underline;}
+
+/* userscenter.html */
+.info{border:1px solid #ccc;background: #fff;font-size: 12px; line-height: 24px;}
+	.info_basic{ float: left; margin-left: 30px; margin-top: 30px;}
+	.info_skill{ margin-top: 30px; float: left; width: 150px;}
+	.info_skill span{color: #fff; margin-right: 10px; font-family: "Simsun";padding:2px;}
+	.info_skill span#colorff8d71{background: #ff8d71;}
+	.info_skill span#color7bdef0{background: #7bdef0;}
+	.info_contact{ margin-top: 30px; float: left;}
+	.info_contact p img{vertical-align: middle; margin-right: 10px;}
+	.gs{background: url(../img/gs.png) no-repeat; width: 38px;height: 148px; float: left; margin-left: 30px;}
+
+.record{ width:300px; float:right; padding:20px;}
+.record table td{ line-height:20px;}
+.color6e6e6e{ color:#6e6e6e; font-size:12px; margin:0px 5px; font-family:"SimSun";}
+.color6e6e6e:hover{ text-decoration:underline; font-family:"SimSun";}
+.colora0a0a0{ color:#a0a0a0; font-weight:bold; font-family:"SimSun"; font-size:14px;}
+.table01 table{border: solid 1px #ccc; }
+.table01 table th{ border-color:#ccc; background:#f4f3f3; height:25px; color:#887d04; font-family:"SimSun"; font-size:14px;}
+.table01 table td{ border-color:#ccc; height:25px; color:#444; font-size:12px; font-family:"SimSun"; overflow:hidden; text-align:center;}
+.colord09321{ color:#d09321;}
+.color28a717{ color:#28a717;}
+.colord61b2c{ color:#d61b2c;}
+.logined_txt table{ font-family:"SimSun"; font-size:12px;}
+.logined_txt table td{ padding-left:10px; font-size:12px; color:#444; line-height:40px;}
+.button01{ background:url(../img/save.gif) no-repeat; width:93px; height:32px; border:none; color:#fff; font-weight:bold; cursor:pointer; font-family:"Microsoft YaHei";}
+.button02{ background:url(../img/mstb.gif) no-repeat; width:142px; height:38px; border:none; cursor:pointer;}
+
+
+
+
+
+
+
+
+
+/* charge.html */
+.xiala{ width:250px; float:left; }
+.logined{ width:930px; float:right;}
+.logined_tit{ background:url(../img/logined_tit.gif) repeat-x; height:32px; border-bottom:2px solid #9bb74b; border-left:1px solid #ccc; border-right:1px solid #ccc; border-top:1px solid #ccc;}
+.logined_tit h2{ height:32px; line-height:32px; padding-left:10px; font-family:"Microsoft YaHei"; font-size:14px; color:#2c2c2c;}
+.logined_txt{ padding:30px; min-height:500px; height:auto !important; height:500px; border:1px solid #ccc;}
+.colorb3930f{ color:#b3930f; font-size:12px; line-height:30px;}
+
+/* password.html */
+.colorff0000{ color:#ff0000;}
+.pass table{ border:1px solid #fff; font-family:"SimSun";}
+.pass table td{ border:1px solid #fff;}
+
+/* borrow.html */
+.condition li{ float:left; font-size:12px; font-family:"SimSun"; padding-left:20px; padding-top:10px; height:18px; line-height:18px;}
+.condition li .color444{ color:#444;}
+.condition li .color444:hover{ text-decoration:underline;}
+.colorcbbc15{ color:#fff; background:#cbbc15; display:block; width:40px; height:18px; line-height:18px; text-align:center;}
+.searchbar{ border:1px solid #ccc; padding:10px 20px; font-size:12px; font-family:"SimSun";}
+.searchbar li{ float:left; height:32px; line-height:32px; margin-left:5px;}
+
+/* tender.html */
+.tabed h2{ font-size:14px; background:url(../img/logined_tit.gif) repeat-x; height:32px; line-height:32px; padding-left:10px; border-bottom:2px solid #9bb74b; border-left:1px solid #ccc; border-right:1px solid #ccc; border-top:1px solid #ccc;}
+.tabed h2 span{ float:left; width:90px; text-align:center; text-decoration:none;}
+.tabed h2 a{ color:#444;}
+.tabed h2 .current{ background:url(../img/tabed.png) no-repeat center bottom;}
+.tabed h2 .current a{ color:#fff;}
+
+/* content.html */
+.content{ padding:30px;}
+.content h1{ font-family:"Microsoft YaHei"; font-size:22px; text-align:center; line-height:30px; color:#444;}
+.content_bar{ height:20px; line-height:20px; margin:10px auto; text-align:center; font-size:12px; color:#adadad; font-family:"SimSun";}
+.content_bar span{ margin:0 10px;}
+.content_bar strong{ color:#a99c17; font-weight:normal;}
+.content p{ line-height:25px; text-align:justify; margin-top:20px;}
+.content li{ background:url(../img/li_ico.gif) no-repeat center left; padding-left:10px; font-size:12px; font-family:"SimSun"; height:30px; line-height:30px; position:relative; border-bottom:1px dashed #ccc;}
+.content li a{ color:#000;}
+.content li a:hover{ color:#a99c17; text-decoration:underline;}
+.content li span{ color:#adadad; *margin-top:-30px; position:absolute; right:0px;}

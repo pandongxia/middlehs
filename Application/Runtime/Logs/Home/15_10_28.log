@@ -1,0 +1,1382 @@
+[ 2015-10-28T07:51:40+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0109s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.022710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023185s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 142 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2015-10-28T08:04:15+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001828s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0026s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.032389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034355s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 142 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027662s ]
+
+[ 2015-10-28T08:05:42+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0120s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0003s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.030043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030691s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 142 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027345s ]
+
+[ 2015-10-28T08:06:04+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0091s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0002s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.028524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029598s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 142 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027781s ]
+
+[ 2015-10-28T08:07:43+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0018s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013365s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 142 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012509s ]
+
+[ 2015-10-28T11:33:06+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008895s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.3557s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0005s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:1.121260s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.130390s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0799s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 142 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 549 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025094s ]
+
+[ 2015-10-28T11:48:44+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0018s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013277s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 127 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 550 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 550 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 550 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002544s ]
+
+[ 2015-10-28T14:28:33+08:00 ] 127.0.0.1 /myhs/test.index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008215s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.8547s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0004s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:2.242626s ]
+INFO: [ app_begin ] --END-- [ RunTime:2.251072s ]
+ERR: 无法加载控制器:Test
+
+[ 2015-10-28T14:45:25+08:00 ] 127.0.0.1 /myhs/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008044s ]
+
+[ 2015-10-28T14:45:26+08:00 ] 127.0.0.1 /myhs/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004379s ]
+
+[ 2015-10-28T14:45:26+08:00 ] 127.0.0.1 /myhs/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2015-10-28T14:45:26+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006298s ]
+
+[ 2015-10-28T14:45:26+08:00 ] 127.0.0.1 /myhs/jquery-2.1.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011928s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0039s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0003s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.063715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.075820s ]
+ERR: 无法加载控制器:Jquery-2.1.4.min
+
+[ 2015-10-28T14:45:26+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+
+[ 2015-10-28T14:45:26+08:00 ] 127.0.0.1 /myhs/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+
+[ 2015-10-28T14:45:26+08:00 ] 127.0.0.1 /myhs/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001684s ]
+
+[ 2015-10-28T14:45:26+08:00 ] 127.0.0.1 /myhs/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+
+[ 2015-10-28T14:46:31+08:00 ] 127.0.0.1 /myhs/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+
+[ 2015-10-28T14:46:31+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+
+[ 2015-10-28T14:46:31+08:00 ] 127.0.0.1 /myhs/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003690s ]
+
+[ 2015-10-28T14:46:31+08:00 ] 127.0.0.1 /myhs/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007678s ]
+
+[ 2015-10-28T14:46:31+08:00 ] 127.0.0.1 /myhs/jquery-2.1.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007903s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0059s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.028885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038043s ]
+ERR: 无法加载控制器:Jquery-2.1.4.min
+
+[ 2015-10-28T14:46:32+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+
+[ 2015-10-28T14:46:32+08:00 ] 127.0.0.1 /myhs/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+
+[ 2015-10-28T14:46:32+08:00 ] 127.0.0.1 /myhs/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+
+[ 2015-10-28T14:46:36+08:00 ] 127.0.0.1 /myhs/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003033s ]
+
+[ 2015-10-28T14:46:36+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003750s ]
+
+[ 2015-10-28T14:46:36+08:00 ] 127.0.0.1 /myhs/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004048s ]
+
+[ 2015-10-28T14:46:36+08:00 ] 127.0.0.1 /myhs/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003724s ]
+
+[ 2015-10-28T14:46:36+08:00 ] 127.0.0.1 /myhs/jquery-2.1.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0030s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0004s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.016504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017341s ]
+ERR: 无法加载控制器:Jquery-2.1.4.min
+
+[ 2015-10-28T14:46:36+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+
+[ 2015-10-28T14:46:36+08:00 ] 127.0.0.1 /myhs/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+
+[ 2015-10-28T14:46:36+08:00 ] 127.0.0.1 /myhs/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002053s ]
+
+[ 2015-10-28T14:46:36+08:00 ] 127.0.0.1 /myhs/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001523s ]
+
+[ 2015-10-28T15:24:42+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.1891s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0005s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.820754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.823199s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0817s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 544 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 544 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 544 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.331816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.331923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.035738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.035796s ]
+
+[ 2015-10-28T20:51:32+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0230s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0005s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.052320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054092s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 113 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 544 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 544 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 544 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2015-10-28T22:13:59+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0043s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.015577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016428s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 475 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 475 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 475 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005716s ]
+
+[ 2015-10-28T22:13:59+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2015-10-28T22:15:01+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0029s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.013404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014002s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003467s ]
+
+[ 2015-10-28T22:15:01+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-10-28T22:16:23+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0028s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.014453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015016s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 136 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 136 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.045513s ]
+
+[ 2015-10-28T22:16:24+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2015-10-28T22:18:26+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0034s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0015s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020099s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 136 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 136 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007090s ]
+
+[ 2015-10-28T22:18:27+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-10-28T22:18:27+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0019s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012401s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 136 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 136 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2015-10-28T22:20:05+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0024s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.015316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015934s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.060296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.060367s ]
+
+[ 2015-10-28T22:20:06+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002089s ]
+
+[ 2015-10-28T22:20:06+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0018s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012534s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2015-10-28T22:20:22+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012109s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2015-10-28T22:20:23+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2015-10-28T22:23:45+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0022s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0003s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012879s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.042872s ]
+
+[ 2015-10-28T22:23:46+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2015-10-28T22:23:46+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0018s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.014386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014953s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-10-28T22:26:14+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0022s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012817s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 135 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 135 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.034089s ]
+
+[ 2015-10-28T22:26:14+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002835s ]
+
+[ 2015-10-28T22:26:14+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0022s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013092s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 135 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 135 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-10-28T22:26:51+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0030s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013442s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.056422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.056483s ]
+
+[ 2015-10-28T22:26:51+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+
+[ 2015-10-28T22:26:52+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0021s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0009s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012888s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004578s ]
+
+[ 2015-10-28T22:26:52+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2015-10-28T22:30:13+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0022s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013062s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.054509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.054570s ]
+
+[ 2015-10-28T22:30:13+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2015-10-28T22:31:29+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0021s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013376s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.055850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.056025s ]
+
+[ 2015-10-28T22:31:29+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-10-28T22:31:29+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002786s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0020s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.045785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048644s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2015-10-28T22:32:06+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0021s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011946s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2015-10-28T22:32:06+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006555s ]
+
+[ 2015-10-28T22:32:18+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0030s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013153s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026064s ]
+
+[ 2015-10-28T22:32:19+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-10-28T22:33:43+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0029s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012246s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 134 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 134 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024251s ]
+
+[ 2015-10-28T22:33:44+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2015-10-28T22:34:27+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0021s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013286s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 134 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 134 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.057757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.057883s ]
+
+[ 2015-10-28T22:34:28+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-10-28T22:34:31+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0021s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0002s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.012383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013047s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 134 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 134 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2015-10-28T22:34:32+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-10-28T22:37:24+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0021s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0002s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.011506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013853s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 139 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 139 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010677s ]
+
+[ 2015-10-28T22:37:24+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2015-10-28T22:37:32+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0036s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0003s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.015908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016508s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 139 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 139 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.043512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043594s ]
+
+[ 2015-10-28T22:37:33+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2015-10-28T22:38:22+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0021s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.013334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013921s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023331s ]
+
+[ 2015-10-28T22:38:22+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2015-10-28T22:38:35+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0018s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.014079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015687s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.047480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.047543s ]
+
+[ 2015-10-28T22:38:35+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2015-10-28T22:58:18+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0105s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0003s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.047093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048761s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014494s ]
+
+[ 2015-10-28T22:58:18+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-10-28T23:02:15+08:00 ] 127.0.0.1 /myhs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0181s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0001s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\xampp\htdocs\myhs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.030245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030850s ]
+SQL: SHOW COLUMNS FROM `hs_service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hs_service`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\myhs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.053537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.053609s ]
+
+[ 2015-10-28T23:02:15+08:00 ] 127.0.0.1 /myhs/images/up.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+

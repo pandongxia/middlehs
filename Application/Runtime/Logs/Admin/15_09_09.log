@@ -1,0 +1,805 @@
+[ 2015-09-09T16:14:23+08:00 ] ::1 /demo/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.1820s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.767000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.769000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+
+[ 2015-09-09T16:14:27+08:00 ] ::1 /demo/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0230s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.052000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054000s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\demo\Application\Admin\Plugin\GeetestPlugin.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014000s ]
+
+[ 2015-09-09T16:14:30+08:00 ] ::1 /demo/index.php/Admin/Index/login/dosubmit/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0000s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.031200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046800s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\demo\Application\Admin\Plugin\GeetestPlugin.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0624s ]
+SQL: SHOW COLUMNS FROM `hs_times` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `hs_admin` WHERE `username` = 'happiness' LIMIT 1   [ RunTime:0.0780s ]
+SQL: SELECT * FROM `hs_times` WHERE `username` = 'happiness' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `hs_times` WHERE `username` = 'happiness' [ RunTime:0.0468s ]
+SQL: UPDATE `hs_admin` SET `lastloginip`='0.0.0.0',`lastlogintime`='1441786470' WHERE `userid` = 1 [ RunTime:0.0936s ]
+SQL: SHOW COLUMNS FROM `hs_admin_log` [ RunTime:0.0468s ]
+SQL: INSERT INTO `hs_admin_log` (`userid`,`username`,`httpuseragent`,`ip`,`time`,`type`,`sessionid`) VALUES ('1','happiness','Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2453.0 Safari/537.36','0.0.0.0','2015-09-09 16:14:30','login','4srd7117fi2hk2mrd38r3t8c53') [ RunTime:0.0312s ]
+
+[ 2015-09-09T16:14:30+08:00 ] ::1 /demo/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.023000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025000s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hs_menu` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `hs_admin_role` [ RunTime:0.0200s ]
+SQL: SELECT `userid`,`username`,`roleid`,`lastloginip`,`lastlogintime`,`email`,`realname` FROM `hs_admin` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `rolename` FROM `hs_admin_role` WHERE `roleid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_menu` WHERE `parentid` = 0 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-09T16:14:31+08:00 ] ::1 /demo/index.php/Admin/Index/public_main?_=1441786470988
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0110s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.025000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026000s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `hs_admin_role` [ RunTime:0.0110s ]
+SQL: SELECT `userid`,`username`,`roleid`,`lastloginip`,`lastlogintime`,`email`,`realname` FROM `hs_admin` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `rolename` FROM `hs_admin_role` WHERE `roleid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hs_admin_log` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `hs_admin_log` WHERE `userid` = 1 ORDER BY time desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-09T16:14:31+08:00 ] ::1 /demo/index.php/Admin/Index/public_donate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0150s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0020s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.047000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048000s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:14:32+08:00 ] ::1 /demo/index.php/Admin/Index/public_menuLeft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0000s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.020600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021600s ]
+SQL: SHOW COLUMNS FROM `hs_menu` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `hs_menu` WHERE `parentid` = 1 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_menu` WHERE `parentid` = 6 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0000s ]
+
+[ 2015-09-09T16:14:36+08:00 ] ::1 /demo/index.php/Admin/Admin/loginLog/menuid/7?_=1441786470989
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.029000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030000s ]
+SQL: SHOW COLUMNS FROM `hs_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-09-09T16:14:37+08:00 ] ::1 /demo/index.php/Admin/Admin/loginLog/grid/datagrid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.022000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023000s ]
+SQL: SHOW COLUMNS FROM `hs_admin_log` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hs_admin_log` WHERE ( `type` = 'login' and `userid` = 1 ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT * FROM `hs_admin_log` WHERE ( `type` = 'login' and `userid` = 1 ) ORDER BY time desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2015-09-09T16:14:43+08:00 ] ::1 /demo/index.php/Admin/Index/public_menuLeft
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0070s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.020000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021000s ]
+SQL: SHOW COLUMNS FROM `hs_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hs_menu` WHERE `parentid` = 2 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_menu` WHERE `parentid` = 69 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_menu` WHERE `parentid` = 9 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_menu` WHERE `parentid` = 19 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_menu` WHERE `parentid` = 33 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0000s ]
+
+[ 2015-09-09T16:14:46+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0000s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.013000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014000s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:14:48+08:00 ] ::1 /demo/index.php/Admin/Admin/memberList/menuid/20?_=1441786470990
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.031000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032000s ]
+SQL: SHOW COLUMNS FROM `hs_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-09T16:14:48+08:00 ] ::1 /demo/index.php/Admin/Admin/memberList/grid/datagrid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0150s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.032000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035000s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hs_admin_role` [ RunTime:0.0110s ]
+SQL: SELECT `roleid`,`rolename` FROM `hs_admin_role` WHERE `disabled` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hs_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `userid`,`username`,`lastloginip`,`email`,`realname`,`lastlogintime`,`roleid` FROM `hs_admin` ORDER BY userid asc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2015-09-09T16:14:50+08:00 ] ::1 /demo/index.php/Admin/Admin/roleList/menuid/25?_=1441786470991
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.032000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033000s ]
+SQL: SHOW COLUMNS FROM `hs_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-09T16:14:50+08:00 ] ::1 /demo/index.php/Admin/Admin/roleList/grid/datagrid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0150s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.027000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029000s ]
+SQL: SHOW COLUMNS FROM `hs_admin_role` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hs_admin_role` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT *,roleid as id FROM `hs_admin_role` ORDER BY listorder asc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2015-09-09T16:14:54+08:00 ] ::1 /demo/index.php/Admin/System/setting/menuid/10?_=1441786470992
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0110s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.026000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027000s ]
+SQL: SHOW COLUMNS FROM `hs_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-09T16:14:54+08:00 ] ::1 /demo/index.php/Admin/System/setting/grid/propertygrid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.023000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024000s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\phpStudy\WWW\demo\Application\Admin\Model\SettingModel.class.php 第 13 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy\WWW\demo\Application\Admin\Model\SettingModel.class.php 第 14 行.
+SQL: SELECT `key`,`value` FROM `hs_setting` WHERE ( `key` in('') )  [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\demo\Application\Admin\Model\SettingModel.class.php 第 18 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\phpStudy\WWW\demo\Application\Admin\Model\SettingModel.class.php 第 40 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:14:56+08:00 ] ::1 /demo/index.php/Admin/System/menuList/menuid/11?_=1441786470993
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.030000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031000s ]
+SQL: SHOW COLUMNS FROM `hs_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-09-09T16:14:56+08:00 ] ::1 /demo/index.php/Admin/System/menuList/grid/treegrid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0100s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.025000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026000s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `hs_menu` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 0 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 1 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 6 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 7 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 8 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 2 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 69 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 71 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 70 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 9 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 10 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 11 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 18 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 17 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 16 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 15 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 14 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 13 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 12 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 63 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 67 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 66 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 65 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 64 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 19 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 20 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 61 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 24 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 23 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 22 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 21 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 25 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 32 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 31 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 30 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 29 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 28 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 27 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 26 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 33 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 37 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 34 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 36 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 35 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 3 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 48 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 50 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 60 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 59 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 58 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 57 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 56 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 49 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 62 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 55 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 54 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 53 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 52 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 51 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 38 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 68 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 40 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 47 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 46 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 45 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 44 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 43 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 42 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 41 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`listorder`,`id` as `operateid` FROM `hs_menu` WHERE `parentid` = 39 ORDER BY `listorder` ASC,`id` DESC  [ RunTime:0.0010s ]
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:14:56+08:00 ] ::1 /demo/index.php/Admin/System/email/menuid/63?_=1441786470994
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.029000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029000s ]
+SQL: SHOW COLUMNS FROM `hs_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\demo\Application\Admin\Controller\SystemController.class.php 第 585 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-09T16:14:57+08:00 ] ::1 /demo/index.php/Admin/System/email/grid/datagrid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0090s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.034000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035000s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'helenservice.hs_email' doesn't exist
+
+[ 2015-09-09T16:14:58+08:00 ] ::1 /demo/index.php/Admin/Database/exportlist/menuid/70?_=1441786470995
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0100s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.029000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030000s ]
+SQL: SHOW COLUMNS FROM `hs_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hs_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-09T16:14:59+08:00 ] ::1 /demo/index.php/Admin/Database/exportlist/grid/treegrid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.019000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020000s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW TABLE STATUS [ RunTime:0.1100s ]
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:15:00+08:00 ] ::1 /demo/index.php/Admin/Database/exportlist/grid/treegrid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0156s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.031200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031200s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW TABLE STATUS [ RunTime:0.0000s ]
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:15:01+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0156s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.062400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.062400s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:15:05+08:00 ] ::1 /demo/index.php/Admin/Database/export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0090s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.029000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044600s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:15:16+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0110s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.034000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035000s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:15:31+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0156s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.031200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031200s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:15:47+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0070s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.029000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030000s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:16:02+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0000s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:16:17+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0000s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.027600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028600s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:16:33+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0156s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.046800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046800s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:16:49+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0000s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.031200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031200s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:17:05+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.028000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029000s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:17:20+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0080s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.031000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032000s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:17:35+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0156s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.031200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031200s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:17:50+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0156s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.046800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046800s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:18:06+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0156s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.046800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046800s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:18:22+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0000s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.048200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048200s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-09-09T16:18:37+08:00 ] ::1 /demo/index.php/Admin/Index/public_sessionLife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hs_setting` [ RunTime:0.0000s ]
+SQL: SELECT `key`,`value` FROM `hs_setting`  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.031200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031200s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\demo\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+

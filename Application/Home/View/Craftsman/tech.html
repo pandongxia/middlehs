@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>海伦服务</title>  
+
+  </head>
+  <body> 
+<div class="container">
+	<div class="row">
+        <div class="col-md-12">			
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">HelenService</a>            
+            </div> <!--END navbar-header-->
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="{:U('home/craftsman/index')}" class="">首页</a></li>                      
+                        
+                        <li class=" down"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">预留 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Change Time Entry</a></li>
+                                <li><a href="#">Report</a></li>
+                            </ul>
+                        </li>
+                        
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                	<gt name="cid" value="0"> 
+                    <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{$username}  <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class=""><a href="{:U('home/member/index')}" class="animate">我的技能</a></li>
+                                <li class=""><a href="http://bootsnipp.com/resources" class="animate">修改密码</a></li> 
+                            </ul>
+                    </li>
+                    <li class=""><a href="{:U('home/member/logout')}">退出</a></li>
+                    <else/>
+                      <li class="animate"><a href="{:U('home/index/Join')}" target="_self">注册</a></li>          
+                      <li class="animate"><a href="{:U('home/index/Login')}" target="_self">登录</a></li>    
+                    </gt>
+                </ul>
+            </div> <!--END navbar-collapse-->
+            </div>  
+            </nav>
+            <h3>当前技能列表</h3>
+            <div>
+            	<ul class="list-group">
+                	<li class="list-group-item">
+                    	<ul class="list-inline" style="padding-left:3%">
+                        	<li style="width:5%">序号</li>
+                            <li style="width:20%">技能</li>
+                        </ul>
+                    </li>
+	            	<volist name='owner_data' id='vo' key="k" empty="你还没有技能！">
+	            	    <li class="list-group-item">
+	                    	<ul class="list-inline" style="padding-left:3%">
+	                        	<li style="width:5%">{$k}</li>
+	                            <li style="width:20%">{$vo.name}</li>
+	                       		 <li style="width:70%"><button cid="{$vo.craftsmanshipid}">删除</button></li>
+	                        </ul>
+	                    </li>
+	            	</volist>                    
+                </ul>
+            </div>
+            <h3>添加技能</h3>
+            <div id="techlist"><!--start current tech list-->
+            	<form name="craftsmancheckbox" method="post" action="{:U('home/craftsman/addtech')}">
+                	<ul class="list-group">
+                    	<li class="list-group-item">
+                        	<ul class="list-inline" style="padding-left:3%">
+                            	<li style="width:5%">序号</li>
+                                <li style="width:20%">技能</li>
+                                <li style="width:70%">说明</li>                                
+                            </ul>
+                        </li>                                    
+                        <volist name='craftsman' id='vo' key="k">
+                        <li class="list-group-item">
+                            <ul class="list-inline" style="padding-left:3%">
+                                <li style="width:5%">{$k}</li>                           
+                                <li style="width:20%">
+                                    <input tabindex={$k} type="checkbox" id="square-checkbox-{$k+1}" name="tech[]" value="{$vo.craftsmanshipid}" />
+                                    <label for="square-checkbox-{$k+1}">{$vo.name}</label>
+                                </li>
+                                <li style="width:70%"> 这个工作很好胜任</li>
+                            </ul> 
+                        </li>                                                          
+                        </volist>
+                        <li class="list-group-item"><input type="submit" name="Submit" value="提交"></li>
+                    </ul> 
+                </form>
+            </div> <!--end current tech list-->            
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-md-12">
+        </div>
+	</div>   
+</div>
+
+      <script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+    <script src="__PUBLIC__/js/jquery.validate.js"></script>    
+    <script src="__PUBLIC__/js/icheck.js?v=1.0.2"></script>    
+    <script src="__PUBLIC__/js/datetimepicker/jquery.datetimepicker.js"></script>
+	<script src="__PUBLIC__/js/PCASClass.js"></script>
+    <script>
+$(document).ready(function(){
+  $('#techlist input').iCheck({
+	checkboxClass: 'icheckbox_square-green',
+    radioClass: 'iradio_square-green',
+    increaseArea: '20%' // optional
+  });  
+
+  $("button").click(function(){
+		$.ajax({
+		  	url:"{:U('home/craftsman/deltech')}",
+		      type:"post",
+		      data:{id:$(this).attr('cid')},
+		      dataType:"json",
+		      success:function(res)
+		      {
+		      	if (res.status == 1)
+		          {
+		              window.location.replace("{:U('home/craftsman/modify_tech')}");
+		          }
+		          else
+		          {
+		          	alert('删除失败！');
+		          }
+		      }
+		  });
+	});
+
+
+});
+</script>
+  </body>
+</html>

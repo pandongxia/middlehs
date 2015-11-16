@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Register</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+    <link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">  
+    <link rel="stylesheet" href="__PUBLIC__/Font-Awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/register.css">  
+  </head>
+  <body> 
+<div class="container">
+     <h3>注册---请选择合适的用户类型</h3>
+    <hr>
+    <div class="row">
+    <form id="regform" action="{:U('home/index/dojoin')}" method="post">
+        <div class="col-lg-6">
+        	<div class="form-group">
+                <label>用户类型</label>
+                <div class="input-group"> <span class="input-group-addon"><i class="fa fa-sort fa-fw"></i>&nbsp; </span>
+                	<select name="type" class="form-control" id="select">
+                    	<option value="1" selected="selected">普通用户</option>
+                        <option value="2">工匠</option>
+                    </select>                    
+                </div>
+            </div>
+            <div class="form-group">
+                <label>用户名</label>
+                <div class="input-group"> <span class="input-group-addon"><i class="fa fa-user fa-fw"></i>&nbsp; </span>
+                    <input type="text" class="form-control" name=username id="username" placeholder="用户名">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>邮箱</label>
+                <div class="input-group"> <span class="input-group-addon"><i class="fa fa-envelope fa-fw"></i>&nbsp; </span>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="邮箱" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>密码</label>
+                <div class="input-group"> <span class="input-group-addon"><i class="fa fa-lock fa-fw"></i>&nbsp; </span>
+                    <input type="password" class="form-control" name="password" id="password" placeholder="密码" required data-toggle="popover" title="密码强度" data-content="请输入密码...">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>确认密码</label>
+                <div class="input-group"> <span class="input-group-addon"><i class="fa fa-arrows-v fa-fw"></i>&nbsp; </span>
+                    <input type="password" class="form-control" name="confirm" id="confirm" placeholder="确认密码" required>
+                </div>
+            </div>
+            
+            <input type="submit" name="submit" id="submit" value="提交" class="btn btn-primary pull-right">
+        </div>
+        </form>
+    </div>
+</div>
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<script src="__PUBLIC__/js/jquery.validate.js"></script>        
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+
+//minimum 8 characters
+var bad = /(?=.{8,}).*/;
+//Alpha Numeric plus minimum 8
+var good = /^(?=\S*?[a-z])(?=\S*?[0-9])\S{8,}$/;
+//Must contain at least one upper case letter, one lower case letter and (one number OR one special char).
+var better = /^(?=\S*?[A-Z])(?=\S*?[a-z])((?=\S*?[0-9])|(?=\S*?[^\w\*]))\S{8,}$/;
+//Must contain at least one upper case letter, one lower case letter and (one number AND one special char).
+var best = /^(?=\S*?[A-Z])(?=\S*?[a-z])(?=\S*?[0-9])(?=\S*?[^\w\*])\S{8,}$/;
+
+$('#password').on('keyup', function () {
+    var password = $(this);
+    var pass = password.val();
+    var passLabel = $('[for="password"]');
+    var stength = '弱';
+    var pclass = 'danger';
+    if (best.test(pass) == true) {
+        stength = '高强度';
+        pclass = 'success';
+    } else if (better.test(pass) == true) {
+        stength = '中等强度';
+        pclass = 'warning';
+
+    } else if (good.test(pass) == true) {
+        stength = '一般强度';
+        pclass = 'warning';
+    } else if (bad.test(pass) == true) {
+        stength = '差';
+    } else {
+        stength = '非常差';
+    }
+
+    var popover = password.attr('data-content', stength).data('bs.popover');
+    popover.setContent();
+    popover.$tip.addClass(popover.options.placement).removeClass('danger success info warning primary').addClass(pclass);
+
+});
+
+$('input[data-toggle="popover"]').popover({
+    placement: 'top',
+    trigger: 'focus'
+});
+
+$("#username").focus();
+	jQuery.validator.addMethod("userFormat", function(value, element) {   
+	    var user = /^[a-zA-Z][a-zA-Z0-9_]{5,17}$/;
+	    return this.optional(element) || (user.test(value));
+	}, "6~18个字符，可使用字母、数字、下划线，需以字母开头");		
+	var validate = $("#regform").validate({
+		submitHandler: function(form){
+			form.submit();
+		},
+		
+		rules:
+		{
+			username:{
+				required:true,
+				userFormat:true,
+				remote: {
+				    url: "{:U('home/index/checkName')}",     //后台处理程序
+				    type: "post",               //数据发送方式
+				    dataType: "json",
+				    data: {      
+					    type: function() {
+				            return $("#select option:selected").val();
+				        }
+				    }
+				}
+			},
+			email:{
+				required:true,
+				email:true,
+				//remote:"{:U('home/index/checkEmail')}"
+				remote: {
+				    url: "{:U('home/index/checkEmail')}",     //后台处理程序
+				    type: "post",               //数据发送方式
+				    dataType: "json",
+				    data: {      
+					    type: function() {
+				            return $("#select option:selected").val();
+				        }
+				    }
+				}
+			},
+			password:{
+				required:true,
+				rangelength:[6,32]
+			},
+			confirm:{
+				equalTo:"#password"
+			}
+		},
+		
+		messages:
+		{
+			username:{
+				required:"必填",
+				remote:'用户名已被占用 ！'
+			},
+			email:{
+				required:"必填",
+				email:"E-Mail格式不正确",
+				remote:'邮箱已被占用 ！'
+			},
+			password:{
+				required:"必填",
+				rangelength:$.format("密码最小长度:{0}, 最大长度:{1}")
+			},
+			confirm: {
+				required:"必填",
+				equalTo:"两次密码输入不一致"
+			}
+		}
+	});	
+	$("#select").change(function(){
+		$('#email').removeData("previousValue").valid(); 
+		$('#username').removeData("previousValue").valid(); 
+	
+	});
+})
+</script>
+</body>
+</html>
